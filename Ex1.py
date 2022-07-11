@@ -9,5 +9,4 @@ str_n = str_n.replace('.', '')
 list_str = list(str_n)
 list_num = map(int, list_str)
 s = sum (list_num)
-print(s)
-
+print('Сумма цифр = ', s)
